@@ -2,9 +2,11 @@
 
 `vue-socketio-heroku-starter` is a vue-socket.io boilerplate, which sets up a simple socket.io counter application. It consists of a vue client and a express server and is already configured to be deployed to Heroku.
 
+[vue-socketio-heroku-starter.herokuapp.com](https://vue-socketio-heroku-starter.herokuapp.com/)
+
 ## Usage
 
-Run `npm run serve` and `node server` for development, run `npm run build` and `node server`for production.
+Run `npm run serve` and `node server` for development, run `npm run build` and `node server` for production.
 
 ## Deploy to Heroku
 
