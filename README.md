@@ -15,7 +15,7 @@ The application is a simple counter example app, using a node-socket.io server t
 
 ## Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/heroku/node-js-getting-started)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/alexwidua/vue-socketio-heroku-starter)
 
 or manually create a new Heroku application and add the `heroku/nodejs` and `https://github.com/heroku/heroku-buildpack-static` buildpacks. Note that
 the node server runs from the path specified in the [Procfile](https://heroku-vue-socket-test.herokuapp.com/).
