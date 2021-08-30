@@ -22,7 +22,7 @@ export default {
 		 * 💥 Emit increment_counter event to the socket server.
 		 */
 		increment() {
-			this.$socket.client.emit('increment_counter')
+			this.$socket.emit('increment_counter')
 		}
 	},
 	sockets: {
@@ -38,13 +38,13 @@ export default {
 
 <style scoped>
 .counter {
-	width: 100%;
-	margin-top: 32px;
-	padding-top: 32px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
+	margin-top: 32px;
+	padding-top: 32px;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 </style>

@@ -41,24 +41,24 @@ export default {
 <style>
 body,
 html {
+	margin: 0;
+	padding: 0;
+	color: #2c3e50;
 	font-family: Avenir, Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	color: #2c3e50;
-	margin: 0;
-	padding: 0;
 }
 * {
 	box-sizing: border-box;
 }
 
 #app {
-	width: 100%;
-	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
+	height: 100vh;
 }
 
 .container {

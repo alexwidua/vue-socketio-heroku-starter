@@ -32,13 +32,13 @@ export default {
 
 <style scoped>
 .clients {
-	width: 100%;
-	margin-top: 32px;
-	padding-top: 32px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
+	margin-top: 32px;
+	padding-top: 32px;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 </style>
